@@ -10,6 +10,11 @@ body {
 
 }
 
+main {
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
 #navbartop {
 
     background-color: #008b8b;
@@ -71,10 +76,20 @@ a:active {
     border-style: solid;
     border-width: 2px;
     border-color: rgb(21, 24, 27);
-    width 20em;
-    height: 350px;
-    /* margin-left: 10px;
-    margin-right: 10px; */
+    /* width 20em; */
+
+}
+#maindivmid {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#maindivtop {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 h1 {
@@ -116,6 +131,8 @@ footer {
 
 .container {
     width: 100%;
+    padding-left: 0.1%;
+    padding-right: 1%;
 
 }
 
@@ -193,7 +210,7 @@ footer {
 
 #boxfloat img {
     width: 300px;
-    height: 200px;       
+    height: 200px;
     background-color: red;
     margin-top: 10px;
     margin-right: 20px;
@@ -202,6 +219,3 @@ footer {
     display: flow-root;
 }
 
-#maindivtop {
-    padding: 20px;
-}
